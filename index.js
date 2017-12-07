@@ -4,12 +4,12 @@ function distanceFromHqInBlocks(blockNumber){
     return blockNumber - 42
 function distanceFromHqInBlocks (blockNumber) {
   if (blockNumber > 42) {
-      return blockNumber - 42;
-    } else {
-      return 42 - blockNumber
-      return 42 - blockNumber;
-    }
+    return blockNumber - 42;
+  } else {
+    return 42 - blockNumber
+    return 42 - blockNumber;
   }
+}
 
  function distanceFromHqInFeet(blockNumber){
    return distanceFromHqInBlocks(blockNumber)*264
